@@ -19,7 +19,7 @@ body {
 
   background: rgba(0, 0, 0, 0.01);
 
-  color: rgba(62, 54, 54, 0.90);
+  color: rgba(64, 64, 64, 0.90);
   font-family: 'Roboto Mono', sans-serif;
   font-weight: 300;
 }
@@ -36,6 +36,7 @@ body {
 
 .header {
   padding: 24px;
+  text-align: center;
 }
 
 .header h1 {
