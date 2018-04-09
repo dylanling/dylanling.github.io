@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,500');
 
 * {
   cursor: default;
@@ -16,18 +16,17 @@ body {
   padding: 0;
   width: 100%;
   width: 100vw;
-
   background: rgba(0, 0, 0, 0.01);
-
   color: rgba(64, 64, 64, 0.90);
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
 }
 
 .index {}
 
 .wrapper {
-  padding: 100px;
+  padding: 128px;
+  padding-top: 48px;
 }
 
 .wrapper ::selection {
@@ -36,7 +35,6 @@ body {
 
 .header {
   padding: 24px;
-  text-align: center;
 }
 
 .header h1 {
@@ -50,8 +48,6 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-  transition: all 0.3s;
-  opacity: 0.9;
 }
 
 a:hover {
@@ -66,19 +62,17 @@ a:hover {
   color: gray;
 }
 
-canvas {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0.7;
+.rectangle {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding: 12px 24px;
+  line-height: 2.8em;
 }
 
-/*
- * Mobile
- */
+.rectangle:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
 
 @media (max-width: 768px) {
   .wrapper {
